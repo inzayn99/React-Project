@@ -29,12 +29,14 @@ code {
   }
 
 
-/* 
   .navbar-brand {
-    font-size: 2.8rem;
-    color: blue ;;
-    
-  } */
+    font-size: 2.8rem;}
+  
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565656;
+}
 
   .navbar a {
     font-size: 1.1rem;
@@ -42,7 +44,80 @@ code {
 
   }
   
-  .navbar a:hover{
-    color: darkgreen;
+  .navbar a:hover {
+    color: skyblue;
+    text-transform: capitalize;
   }
 
+
+
+  .brand-name {
+    color: rgb(82, 94, 204)
+    ;
+  }
+
+  .zayn {
+    font-size: 2.1rem;
+  }
+
+
+
+  #header {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+  }
+
+  #header .brand-name {
+    color: #3498db;
+  
+  }
+
+  #header h2 {
+    color: #484848;
+    font-size: 24px;
+  }
+
+  #header .btn btn-secondary {
+    font-weight: inherit;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: rgb(108, 62, 214);
+    text-decoration: none;
+
+  }
+
+  #header .btn btn-secondary:hover {
+    background:rgb(82, 94, 204);
+    color: white;
+  }
+
+  #header-img {
+    text-align: right;
+  }
+
+  #header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  @-webkit-keyframes up-down {
+  0%  {
+transform: translateY(10px);
+  }
+  100%{
+transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0%  {
+transform: translateY(10px);
+  }
+  100%{
+transform: translateY(-10px);
+  }
+}
