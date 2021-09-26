@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Card from "./Card";
+
 
 const Service =() => {
   return ( 
     <>
-    <h1>Hello im service page</h1>
-    </>
+
+<Card />
+
+
+</>
     );
 };
 export default Service;
