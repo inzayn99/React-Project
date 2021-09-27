@@ -10,7 +10,7 @@ const Navbar = () => {
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <NavLink  className="navbar-brand" to="/">z a y n</NavLink>
+          <NavLink  className="navbar-brand" to="/">Z t e c h n o l o g y</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

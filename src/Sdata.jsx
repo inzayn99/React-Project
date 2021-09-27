@@ -9,32 +9,32 @@ const Sdata = [
 
     {
         imgsrc: web,
-        title: "web development",
+        title: "Web Design and Development",
     },
 
     {
         imgsrc: digital,
-        title: "Digital marketing",
+        title: "Digital Marketing",
     },
 
     {
         imgsrc: email,
-        title: "Email marketing",
+        title: "Email Marketing",
     },
 
     {
         imgsrc: social,
-        title: "Social media marketing",
+        title: "Social Media marketing",
     },
 
     {
         imgsrc: mobile,
-        title: "Mobile app development",
+        title: "Mobile App development",
     },
 
     {
         imgsrc: seo,
-        title: "Search engin optimization",
+        title: "Search Engine Marketing",
     },
 
 ]
